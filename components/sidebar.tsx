@@ -34,13 +34,13 @@ export default function Sidebar() {
           </svg>
         </button>
 
-        {/* Briefcase */}
+        {/* Inbox */}
         <button
-          aria-label="Projects"
+          aria-label="Inbox"
           className="w-14 h-14 hover:bg-neutral-100 transition-colors flex items-center justify-center text-neutral-600 hover:text-brand-primary"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M10 16.5l6-6 1.41 1.41L11 19 4.41 12.41 5.83 11l4.17 5.5z" />
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V4h16v4z" />
           </svg>
         </button>
 
